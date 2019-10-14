@@ -1,0 +1,22 @@
+server:
+    port: 8989
+    servlet:
+        context-path: /yunsys1
+
+
+
+spring:
+    http:
+        encoding:
+            charset: utf-8
+    datasource:
+        type: org.apache.commons.dbcp.BasicDataSource
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/yunsys?useUnicode=true&characterEncoding=UTF8&serverTimezone=UTC
+        username: root
+        password: root
+mybatis:
+    mapper-locations: classpath:com/baizhi/mapper/*Mapper.xml
+    type-aliases-package: com.baizhi.yunsys.entity
+    executor-type: batch
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.baizhi.yunsys.dao.UserDao">
+    <select id="saveUser">
+      insert into user values
+      (#{id},#{name},#{sex},#{password},#{birthDay},#{photo})
+      </select>
+    <select id="queryUserByNameAndPassword" resultType="User">
+       select * from user where name = #{name} and password = #{password}
+    </select>
+    <select id="queryUserByPage" resultType="User">
+        select * from user where ${column} like concat('%',#{value},'%')
+ 		limit #{begin}, #{pageSize}
+    </select>
+    <select id="queryUserCount" resultType="Integer">
+       select count(*) from user where ${column} like concat('%',#{value},'%')
+    </select>
+    <select id="queryUserById" resultType="User">
+       select * from user where id =#{id}
+       </select>
+    <delete id="deleteByUserIds">
+        delete from user
+        where id in
+        <foreach collection="param1" open="(" item="id" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+    <update id="updateUser">
+        update user
+        <set>
+            <if test="name != null">name = #{name},</if>
+            <if test="sex != null">sex = #{sex},</if>
+            <if test="password != null">password = #{password},</if>
+            <if test="birthDay != null">birthDay = #{birthDay},</if>
+            <if test="photo != null">photo = #{photo}</if>
+        </set>
+        where id = #{id}
+    </update>
+</mapper>
