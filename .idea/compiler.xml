@@ -8,14 +8,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="sparkSQLWordsCount" />
         <module name="sparkrdd (1)" />
-        <module name="sparkstreaming" />
         <module name="XxxWebAplication" />
-        <module name="Test" />
-        <module name="structurestreaming" />
-        <module name="usermode" />
-        <module name="SparkWangJY" />
         <module name="sparksql" />
+        <module name="Test" />
         <module name="yunsys1" />
+        <module name="structurestreaming" />
+        <module name="SparkWangJY" />
+        <module name="web" />
+        <module name="usermode" />
+        <module name="sparkstreaming" />
         <module name="sparkrdd" />
       </profile>
     </annotationProcessing>
@@ -37,7 +38,7 @@
       <module name="structurestreaming" target="1.5" />
       <module name="Test" target="1.5" />
       <module name="usermode" target="1.8" />
-      <module name="web" target="1.8" />
+      <module name="web" target="1.8123123" />
       <module name="XxxWebAplication" target="1.8" />
       <module name="yunsys" target="1.7" />
       <module name="yunsys1" target="1.8" />

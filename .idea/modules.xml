@@ -12,6 +12,7 @@
       <module fileurl="file://E:/大数据/Note/Spark/20190813/SparkDStream/sparkstreaming.iml" filepath="E:/大数据/Note/Spark/20190813/SparkDStream/sparkstreaming.iml" />
       <module fileurl="file://E:/大数据/Note/Spark/20190813/StructureStreaming/structurestreaming.iml" filepath="E:/大数据/Note/Spark/20190813/StructureStreaming/structurestreaming.iml" />
       <module fileurl="file://E:/大数据/Note/20190813/BigDataProject/20190903/user-mode/usermode.iml" filepath="E:/大数据/Note/20190813/BigDataProject/20190903/user-mode/usermode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
       <module fileurl="file://$PROJECT_DIR$/yunsys1/yunsys1.iml" filepath="$PROJECT_DIR$/yunsys1/yunsys1.iml" />
     </modules>
   </component>
