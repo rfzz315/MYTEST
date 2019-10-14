@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://E:/大数据/Note/Spark/20190813/SparkWangJY/SparkWangJY.iml" filepath="E:/大数据/Note/Spark/20190813/SparkWangJY/SparkWangJY.iml" />
+      <module fileurl="file://E:/大数据/Note/20190813/BigDataProject/20190813/Test/Test.iml" filepath="E:/大数据/Note/20190813/BigDataProject/20190813/Test/Test.iml" />
+      <module fileurl="file://E:/大数据/Note/20190813/BigDataProject/20190903/xxx_web_app/XxxWebAplication.iml" filepath="E:/大数据/Note/20190813/BigDataProject/20190903/xxx_web_app/XxxWebAplication.iml" />
+      <module fileurl="file://E:/大数据/Note/Spark/20190813/sparkSQLWordsCount/sparkSQLWordsCount.iml" filepath="E:/大数据/Note/Spark/20190813/sparkSQLWordsCount/sparkSQLWordsCount.iml" />
+      <module fileurl="file://E:/大数据/Note/Spark/in/20190813/SparkRDD/sparkrdd.iml" filepath="E:/大数据/Note/Spark/in/20190813/SparkRDD/sparkrdd.iml" />
+      <module fileurl="file://E:/大数据/Note/Spark/20190813/SparkRDD/sparkrdd (1).iml" filepath="E:/大数据/Note/Spark/20190813/SparkRDD/sparkrdd (1).iml" />
+      <module fileurl="file://E:/大数据/Note/Spark/20190813/SparkSQL/sparksql.iml" filepath="E:/大数据/Note/Spark/20190813/SparkSQL/sparksql.iml" />
+      <module fileurl="file://E:/大数据/Note/Spark/20190813/SparkDStream/sparkstreaming.iml" filepath="E:/大数据/Note/Spark/20190813/SparkDStream/sparkstreaming.iml" />
+      <module fileurl="file://E:/大数据/Note/Spark/20190813/StructureStreaming/structurestreaming.iml" filepath="E:/大数据/Note/Spark/20190813/StructureStreaming/structurestreaming.iml" />
+      <module fileurl="file://E:/大数据/Note/20190813/BigDataProject/20190903/user-mode/usermode.iml" filepath="E:/大数据/Note/20190813/BigDataProject/20190903/user-mode/usermode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunsys1/yunsys1.iml" filepath="$PROJECT_DIR$/yunsys1/yunsys1.iml" />
+    </modules>
+  </component>
+</project>

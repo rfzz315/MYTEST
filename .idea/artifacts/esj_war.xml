@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="esj:war">
+    <output-path>$PROJECT_DIR$/../练习代码/esj/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>esj</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="esj.war">
+      <element id="artifact" artifact-name="esj:war exploded" />
+    </root>
+  </artifact>
+</component>

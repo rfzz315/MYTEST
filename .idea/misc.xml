@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/hadoop" />
+    <file type="web" url="file://$PROJECT_DIR$/logs" />
+    <file type="web" url="file://$PROJECT_DIR$/../练习代码/ES_day4" />
+    <file type="web" url="file://$PROJECT_DIR$/../练习代码/esj" />
+    <file type="web" url="file://$PROJECT_DIR$/../练习代码/jqgrid" />
+    <file type="web" url="file://$PROJECT_DIR$/../练习代码/shopping" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../练习代码/zoo/pom.xml" />
+        <option value="E:/大数据/IDEA_WorkSpace/BigData/hd002/pom.xml" />
+        <option value="E:/大数据/Note/Spark/in/20190813/SparkRDD/pom.xml" />
+        <option value="E:/大数据/Note/Spark/20190813/SparkDStream/pom.xml" />
+        <option value="E:/大数据/Note/Spark/20190813/SparkRDD/pom.xml" />
+        <option value="E:/大数据/Note/Spark/20190813/SparkSQL/pom.xml" />
+        <option value="E:/大数据/Note/Spark/20190813/sparkSQLWordsCount/pom.xml" />
+        <option value="E:/大数据/Note/Spark/20190813/SparkWangJY/pom.xml" />
+        <option value="E:/大数据/Note/Spark/20190813/StructureStreaming/pom.xml" />
+        <option value="$PROJECT_DIR$/yunsys1/pom.xml" />
+        <option value="E:/大数据/Note/20190813/BigDataProject/20190903/user-mode/pom.xml" />
+        <option value="E:/大数据/Note/20190813/BigDataProject/20190903/xxx_web_app/pom.xml" />
+        <option value="E:/大数据/Note/20190813/BigDataProject/20190813/Test/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../练习代码/zoo/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_12" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

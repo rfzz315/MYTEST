@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sparkSQLWordsCount" />
+        <module name="sparkrdd (1)" />
+        <module name="sparkstreaming" />
+        <module name="XxxWebAplication" />
+        <module name="Test" />
+        <module name="structurestreaming" />
+        <module name="usermode" />
+        <module name="SparkWangJY" />
+        <module name="sparksql" />
+        <module name="yunsys1" />
+        <module name="sparkrdd" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="baizhi (1)" target="1.7" />
+      <module name="baizhi (2)" target="1.7" />
+      <module name="cjz" target="1.6" />
+      <module name="Hadoop" target="7" />
+      <module name="Hbase" target="7" />
+      <module name="scala-firstday" target="1.5" />
+      <module name="scalafirstday" target="1.5" />
+      <module name="spark-rdd" target="1.5" />
+      <module name="sparkrdd" target="1.5" />
+      <module name="sparkrdd (1)" target="1.5" />
+      <module name="sparksql" target="1.5" />
+      <module name="sparkSQLWordsCount" target="1.5" />
+      <module name="sparkstreaming" target="1.5" />
+      <module name="SparkWangJY" target="1.5" />
+      <module name="structurestreaming" target="1.5" />
+      <module name="Test" target="1.5" />
+      <module name="usermode" target="1.8" />
+      <module name="web" target="1.8" />
+      <module name="XxxWebAplication" target="1.8" />
+      <module name="yunsys" target="1.7" />
+      <module name="yunsys1" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="XxxWebAplication" options="-parameters" />
+      <module name="baizhi (2)" options="-parameters" />
+      <module name="usermode" options="-parameters" />
+      <module name="web" options="-parameters" />
+      <module name="yunsys" options="-parameters" />
+      <module name="yunsys1" options="-parameters" />
+    </option>
+  </component>
+</project>
